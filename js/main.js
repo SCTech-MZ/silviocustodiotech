@@ -128,7 +128,7 @@
     if (!stage || !nodesRoot || !svg) return;
 
     nodesRoot.innerHTML = SCT.stack.map((n, i) =>
-      `<button type="button" class="stack-node" data-i="${i}" data-group="${n.group}" style="left:${n.x}%;top:${n.y}%">${n.name}</button>`
+      `<button type="button" class="stack-node notranslate" translate="no" data-i="${i}" data-group="${n.group}" style="left:${n.x}%;top:${n.y}%">${n.name}</button>`
     ).join("");
 
     function draw() {
@@ -154,7 +154,7 @@
       $$(".stack-node").forEach((n) => n.classList.toggle("is-active", n === btn));
       const n = SCT.stack[Number(btn.dataset.i)];
       if (!detail || !n) return;
-      detail.innerHTML = `<p class="stack-detail-kicker">${n.group}</p><h3>${n.name}</h3><p>${n.about}</p>`;
+      detail.innerHTML = `<p class="stack-detail-kicker">${n.group}</p><h3 translate="no" class="notranslate">${n.name}</h3><p>${n.about}</p>`;
     }
   }
 

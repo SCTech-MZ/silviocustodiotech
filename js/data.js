@@ -193,7 +193,7 @@ window.SCT = {
       categoryLabel: "Website",
       desc: "Real-estate digital experience and property showcase platform — browsing, presenting, converting.",
       tech: ["Frontend", "CMS-ready", "SEO"],
-      url: "https://aura-code-x.vercel.app/projects_ACX/restaurant-landing-prototype/index.html",
+      url: "https://aura-code-x.vercel.app/projects_ACX/workspace/index.html",
       github: null,
     },
   ],
