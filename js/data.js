@@ -21,7 +21,7 @@ window.SCT = {
     {
       title: "Mobile Applications",
       desc: "Modern mobile experiences for businesses and digital products.",
-      label: "Responsive · PWA",
+      label: "Responsive · React Native",
       icon: "mobile",
     },
     {
